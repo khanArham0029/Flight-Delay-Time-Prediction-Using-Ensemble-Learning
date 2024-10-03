@@ -20,6 +20,16 @@ The dataset used for this project includes information related to:
 ### Target Variable
 The primary target variable is `delay_time` (departure delay in minutes), which is **binned into 8 distinct categories** for classification purposes.
 
+## Project Structure
+
+This project is divided into two parts:
+
+1. **Part 1**: 
+   - In this part, we have **analyzed and refined the dataset**. Various data preprocessing techniques were applied, including feature selection, handling missing values, and filtering the data to focus on active flights.
+  
+2. **Model Training**: 
+   - This part focuses on building and training the ensemble model using the refined dataset. The three models—**SVM**, **Decision Trees**, and **Logistic Regression**—are implemented from scratch, and then combined into an ensemble for improved performance.
+
 ## Models
 The following models have been implemented from scratch:
 1. **Multi-Kernel Support Vector Machine (SVM)**: 
@@ -59,7 +69,4 @@ This repository includes the following:
 - Implementation of more than three different types of models in the ensemble.
 - Achieving an accuracy score of over **93%** on the flight delay dataset.
 
-## How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/Flight-Delay-Prediction-Ensemble.git
+
